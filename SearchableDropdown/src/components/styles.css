@@ -1,0 +1,31 @@
+.dropdown-item {
+  border: 1px solid rgb(90, 90, 90);
+  width: 400px;
+  padding: 1rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 1rem;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(209, 255, 229);
+}
+.selected {
+  background-color: rgb(112, 215, 153);
+}
+.tags {
+  display: flex;
+  gap: 8px;
+}
+.tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(186, 222, 255);
+  border-radius: 1rem;
+}
+.cross {
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
